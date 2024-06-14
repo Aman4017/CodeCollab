@@ -92,7 +92,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
   const handleCompile = async () => {
     const code = editorRef.current.getValue();
     console.log(selectedLanguage);
-    const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/editor`, {
+    const response = await fetch('http://localhost:8080/editor', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
