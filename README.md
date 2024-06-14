@@ -20,7 +20,7 @@ Backend Node server [https://github.com/Aman4017/Code-Collab](https://github.com
 1. Fork this repository
 2. Clone this repository
 ```
-git clone https://github.com/Aman4017/CodeCollab.git
+git clone https://github.com/<you_name>/CodeCollab.git
 ```
 3. Install dependencies
 ```
