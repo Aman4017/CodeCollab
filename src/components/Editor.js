@@ -10,6 +10,9 @@ import 'codemirror/mode/clike/clike'; // C, C++, Java
 import { Socket } from 'socket.io-client';
 import ACTIONS from '../Actions';
 
+// import '../codemirrors/lib/codemirror.css';
+
+
 const languageModes = {
   python: 'python',
   java: 'text/x-java',
